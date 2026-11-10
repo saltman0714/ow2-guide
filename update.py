@@ -11,8 +11,8 @@ import time
 import urllib.error
 import urllib.request
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
-DATA = ROOT / 'data'
+ROOT = pathlib.Path(__file__).resolve().parent
+DATA = ROOT
 API = 'https://overfast-api.tekrop.fr'
 PATCH = 'https://overwatch.blizzard.com/en-us/news/patch-notes/'
 NOW = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
