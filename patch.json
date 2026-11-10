@@ -1,1 +1,7 @@
-{"checked":null,"latest":null,"url":"https://overwatch.blizzard.com/en-us/news/patch-notes/","note":"パッチノートの自動確認。数値変更は自動反映しません。"}
+{
+  "checked": "2026-11-10T19:15:50+00:00",
+  "latest": "Overwatch Retail Patch Notes – November 5, 2026 Hotfix Update This is a hotfix update.",
+  "url": "https://overwatch.blizzard.com/en-us/news/patch-notes/",
+  "note": "公式パッチノートを自動チェック済み。変更数値は要検証のため自動反映しません。",
+  "changed_since_last_check": false
+}

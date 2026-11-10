@@ -1,1 +1,2143 @@
-{"updated":null,"source":"OverFast API","heroes":[]}
+{
+  "updated": "2026-11-10T19:15:50+00:00",
+  "source": "https://overfast-api.tekrop.fr",
+  "heroes": [
+    {
+      "key": "ana",
+      "name": "アナ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/985b06beae46b7ba3ca87d1512d0fc62ca7f206ceca58ef16fc44d43a1cc84ed.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "バイオティック・ライフル",
+          "description": "味方を回復し、敵にダメージを与える長射程ライフル  長押しでズームイン",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/db33c39f25d96a2cabcacb778cf784535279180f6d9119ef56311bdcdf6077df.png"
+        },
+        {
+          "name": "スリープ・ダーツ",
+          "description": "敵を眠らせる矢を発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/620a97282b81ea178951b565e8249361e67c868387e61a4297261ffa11bace13.png"
+        },
+        {
+          "name": "バイオティック・グレネード",
+          "description": "味方を回復し、敵にダメージを与えるグレネード。また、味方の回復能力を向上させ、敵の回復を阻止する効果を持つ",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/886454bdb7df9ad8a47c4a3a8fa5dd488f5b2996e311f16d42a5f022942c4d18.png"
+        },
+        {
+          "name": "ナノ・ブースト",
+          "description": "味方のダメージ出力を向上させ、受けるダメージを低下させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/726f2fa5b149e5ac58310f11893db1850a7312270db4f88c164bb43a84f962cf.png"
+        }
+      ]
+    },
+    {
+      "key": "anran",
+      "name": "アンラン",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2c38b41d79a1ce9a08b9ad8eb7edf3ff819bd448af16a5815be8c7fdb7203aa0.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "朱雀扇",
+          "description": "炎の弾を放つ扇",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b575eb7daebdb64b81b0942c466b00117b31925678d10ab8739781e0ccf1bd69.png"
+        },
+        {
+          "name": "煽火風",
+          "description": "炎上ダメージを増幅させる灼熱の突風",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/66ed3af8219952edc022c4ef08c65191cdd6839aae0a2c451f70f8f61d2bc7de.png"
+        },
+        {
+          "name": "熠閃舞",
+          "description": "すべてのダメージを回避しながら周囲の敵を攻撃する。攻撃が敵にヒットするたびに、アンラン自身のライフが回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c8a106a2acae1b9edf47495af102cf17fd7e8320c76b201d533f5723afc45d14.png"
+        },
+        {
+          "name": "怒炎衝",
+          "description": "前方に突進し、接触した敵にダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/92cd63b84d95581dfbe8c3974be31c9f303db4d25bfd117474f93ab5bc9cca4b.png"
+        },
+        {
+          "name": "朱羽焚",
+          "description": "突撃して、当たった敵を爆破する。爆発した敵は即時燃え上がる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a7f971f4e0c7c898e634d0787f4a0da48ae78b7adbdc7b71149efa0352319c76.png"
+        },
+        {
+          "name": "朱魂返",
+          "description": "デス時に発動することで、爆発とともに自己蘇生する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9060d9e2e407a31ab95948e6512373a4318ebd8883aefa91e9f2fa9bbffb7076.png"
+        },
+        {
+          "name": "焚身焔",
+          "description": "炎の攻撃で敵を炎上させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f4a70d5eacbfa0f6e8290ad352df6e06e72e5dc755ecc650e120697bf59fa7ad.png"
+        }
+      ]
+    },
+    {
+      "key": "ashe",
+      "name": "アッシュ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4076bbaa2eb52a0bfe612434071e56e7702d5454473dbbea2f9e392a9d997a94.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "ザ・ヴァイパー",
+          "description": "セミオートマチック・ライフル  長押しでズームインできる。ダメージと精度が上がるが、連射速度が低下する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1e5c0d3360d2357d28d4c5eacb6727589ac3d4ca99b09e3f8fd67846b6b2ef4e.png"
+        },
+        {
+          "name": "コーチ・ガン",
+          "description": "正面の敵を吹き飛ばし、自身も後方にノックバックされる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/834538cfbc7c2eb7f9fd18aea7ba91264446af706199d716526060e6e34b48ed.png"
+        },
+        {
+          "name": "ダイナマイト",
+          "description": "時限式の爆発物を投げる。直接撃って起爆することも可能",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0e2cc18253fc824f3eac3df4623dfb03210937e27901cc868a8694a4a65e68ad.png"
+        },
+        {
+          "name": "B.O.B",
+          "description": "ボブを召喚する。ボブは前方に突進しながら敵を空中に放り投げ、アームキャノンで攻撃する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/224dd7fd039ee71e2633520cac81186fddabe4d399a64650263514829b936295.png"
+        }
+      ]
+    },
+    {
+      "key": "baptiste",
+      "name": "バティスト",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d4e6f1ca45d9f88fa89260787397f141a6f007b14e5b26698883b6a17bab9680.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "バイオティック・ランチャー",
+          "description": "3点バースト式の武器  回復弾を投射し、着弾地点付近の味方を回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3c6e635c598b687805163bd2173624d18e3c989ca3c0f7b37e7dadd5179a59c1.png"
+        },
+        {
+          "name": "リジェネ・バースト",
+          "description": "自分と周囲の味方のライフを即座に回復した後、徐々に追加で回復する。ライフが半分を下回っているターゲットに対しては、最初の回復量が2倍になる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/995d4c830cd4d6d458333a645561fefb75aab4f5228fe6b7923ea55b29f0496d.png"
+        },
+        {
+          "name": "イモータリティ・フィールド",
+          "description": "デバイスを設置し、味方の死亡を防ぐフィールドを展開する。デバイスは破壊可能",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8e586114b79ae8281255d8e5a5a48d3a855be6e88b3d7abeda93288f4fffe909.png"
+        },
+        {
+          "name": "アンプリフィケーション・マトリックス",
+          "description": "マトリックスを展開し、そこを通過した味方の弾のダメージおよび回復効果を倍増させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/35311fd3b5a6bdd90d9e58101685675e0ee3562b2d63eb0c5775dd1f7b86cc3b.png"
+        },
+        {
+          "name": "エグゾブーツ",
+          "description": "しゃがんで力をためることで、より高くジャンプする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b3451a608be2eea1a38669721c9cd96ef9114172cec10b06c27e8048f42614bd.png"
+        }
+      ]
+    },
+    {
+      "key": "bastion",
+      "name": "バスティオン",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4ede795c2a681aaccfa72d0c901cba0cb8a2c292fd6a97b2ba9faed161c2d184.png",
+      "hitpoints": {
+        "armor": 100,
+        "shields": 0,
+        "health": 250,
+        "total": 350
+      },
+      "abilities": [
+        {
+          "name": "強襲モード",
+          "description": "強力なガトリング砲に変形するが、移動速度が低下する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c3391c7eb4ce0ac2483d1821299fa684072e2ace043ac6ae7839f81f09c187f9.png"
+        },
+        {
+          "name": "偵察モード",
+          "description": "軽量で精密な武器を構え、身軽に移動できる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9febc039b8d8f7743539e8743f78b15495e3ea619615ab763dc747acd29b9615.png"
+        },
+        {
+          "name": "A-36タクティカル・グレネード",
+          "description": "壁に当たると跳ね返る爆弾を発射する。爆弾は敵に命中するか地面に落ちると爆発する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80deb4f0bd0d41f4f9747c3728e31758dee523821abded024b6c242c659ff454.png"
+        },
+        {
+          "name": "モード変更",
+          "description": "モードを切り替える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/eb87350ce8e74c06df5b7fb33cfc2904cbb918777d3740f9e0ee87ff5260265f.png"
+        },
+        {
+          "name": "砲台モード",
+          "description": "地面に固定され、最大3発の強力な砲弾で空から砲撃する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/891396b354d31ef404bf525651f8f95048da8f8816a381021ce8d6e8ccabfafa.png"
+        }
+      ]
+    },
+    {
+      "key": "brigitte",
+      "name": "ブリギッテ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/795fba91376d87d441a7f359ae12a3175dfa95825ccc4414cc6b95b129fc4cb0.png",
+      "hitpoints": {
+        "armor": 75,
+        "shields": 0,
+        "health": 175,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "ロケット・フレイル",
+          "description": "射程の長い近接武器",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e75775c837abbf4aa1ec944fb08f3978819699a27242c64e27f3d52201dee5dc.png"
+        },
+        {
+          "name": "リペア・パック",
+          "description": "一定時間、味方1人を回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6a2c40a4d0a87dfb1d07dada2a3aa4bc46e8361e76f10294585fcb28008903b8.png"
+        },
+        {
+          "name": "ウィップ・ショット",
+          "description": "前方にフレイルを飛ばして敵をノックバックする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b1f72a2f8c1c8df901af39ec7fa33ab69d79c8b92d7bf3319e4a2081e4712dac.png"
+        },
+        {
+          "name": "バリア・シールド",
+          "description": "長押しで自身の前方にエネルギー・バリアを展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d90077573a1495f77345c56ea9231366bac05d3750053e26ccf0b733225ea4c1.png"
+        },
+        {
+          "name": "シールド・バッシュ",
+          "description": "バリア・シールドを展開中に利用可能。前方にダッシュして敵をノックバックする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/da7bcc6cd41e74adbe68450d5afc7809745717e8bdac3fd9cba22f12d6419297.png"
+        },
+        {
+          "name": "ラリー",
+          "description": "アーマーが付与され、バリア・シールドが強化され、付近の味方に追加ライフを付与する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/28664c18171b484aefc61836b34d749dac8971f1393c6a17c88ccb60b8c2d0b3.png"
+        },
+        {
+          "name": "インスパイア",
+          "description": "敵にダメージを与えると、付近の味方を回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2d239f8ca1265f4c5f7be415edc5568481ca347e70a6e2dbf5790551fe63ea9b.png"
+        }
+      ]
+    },
+    {
+      "key": "cassidy",
+      "name": "キャスディ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9240cd64cc8ef58df9acbf55204ab1b5d8578f743fda5931f0dbccbd75ab841b.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "ピースキーパー",
+          "description": "精度の高い強力なリボルバー  残弾を一気に撃ち尽くす",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/96aadaed5019913a61810e895d9c17d38d369f7c3a3213ced78ef562147a83a5.png"
+        },
+        {
+          "name": "コンバット・ロール",
+          "description": "進行方向に前転し、受けるダメージを軽減しリロードする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b22144e644a4a63963e063fc8cc969cfb9061e29993d713b0c64a89b1ac9f280.png"
+        },
+        {
+          "name": "デッド・アイ",
+          "description": "早抜きで敵を倒す。Qでロックオンし、再度Qまたはアビリティ3で射撃",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6b78a5cb96040a70e6b41e767a6ea59c2af4e773521b8b4e0bf2c6fd642a3824.png"
+        }
+      ]
+    },
+    {
+      "key": "dmon",
+      "name": "D.Mon",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a46c60b8562fdbd0b8308396d0808f7606fba208bc67cccf3f82fe56d2c73b9d.png",
+      "hitpoints": {
+        "armor": 275,
+        "shields": 0,
+        "health": 425,
+        "total": 700
+      },
+      "abilities": [
+        {
+          "name": "プラズマ・セイバー ",
+          "description": "エネルギー系の高速近接攻撃",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5b8ae7f23071c20d472d55243ddebe666c361bab598c18e12161b8415ee058de.png"
+        },
+        {
+          "name": "携行型フュージョン・リピーター",
+          "description": "重機関銃を発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bedcca9c4d45135065757cd2f5ff48137b9694159ea5929959efa63e9a45dac7.png"
+        },
+        {
+          "name": "パワー・バリア",
+          "description": "長押しで自身の前方にエネルギー・バリアを展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fc4fc3dc561102b6469a81771190f915f07ac7186b1c9597451018f885c6b99c.png"
+        },
+        {
+          "name": "サージング・ストライク",
+          "description": "ダメージとノックバック効果のある突きを前方に繰り出す。〈パワー・バリア〉展開中に使用可能",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2027a7ba82448e64bf82f5714adaaeafea76d9c6c8ef461e226300a060a7fa8.png"
+        },
+        {
+          "name": "フュージョン・リピーター",
+          "description": "高速連射可能な機関銃を発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/db227e82342a3b2f97f3223616ffc5923999ea9d3badf019a341f2ba1b38843f.png"
+        },
+        {
+          "name": "ジェット・ドライブ",
+          "description": "燃料を消費して、前後左右にダッシュする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ea768e2c364167941c4b0a3bc8bc65d959274e1c0439ab5f6073611aff8c4e37.png"
+        },
+        {
+          "name": "緊急脱出！",
+          "description": "メックが破壊された際、緊急脱出する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/caeb745949c69cdc2c088c2f77827ca1485ef13e19b06fa4353c4f18fb219ac2.png"
+        },
+        {
+          "name": "リミット・ブレイク",
+          "description": "ダメージ増幅効果のある水平斬りを繰り出す。発動時、自身には追加ライフが付与される",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1dba45b4791b7de30f525eb4a4ab38e605c14d93bc5a5a4e4d121186b3d71020.png"
+        },
+        {
+          "name": "メック召喚",
+          "description": "メックと再合体する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/751219a659df8c345ade932ed66dea60bdc844c71c2c185d64bcea83ea8c1ae2.png"
+        }
+      ]
+    },
+    {
+      "key": "doctrine",
+      "name": "ドクトリン",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2492a15c575c12314907d0d77501ec337b4d56796bc7f03e5dfb50d415612bae.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "エターナル・ステッキ",
+          "description": "味方には回復を、敵にはダメージを与えられる中射程の武器  強化時の効果: 弾が大きくなり、貫通するようになる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3ffab68d983c0108cb80c8c55e9980ae855342f5d31c94e3a3f9e7bcf8ac7b6d.png"
+        },
+        {
+          "name": "強化",
+          "description": "次に使うアビリティに強力な効果を付与する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/13178efb1b3fceb275829ff4caa894fd883011d49d2ab33b9130ccf5d777597c.png"
+        },
+        {
+          "name": "ヴァイタル・ドローン",
+          "description": "ドローンを味方のもとに飛ばし、攻撃速度のボーナスとライフを付与する  強化時の効果: ドローンの効果が自身にも付与される",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a0db060f87598d0c57247dd03d2da4d13ea194e7c5c72d93cde7ed0c5393002c.png"
+        },
+        {
+          "name": "クリムゾン・ヴェール",
+          "description": "受けるダメージを軽減しながら前後左右にダッシュする  強化時の効果: 自由に飛行できるようになる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c3d96fb3fe2df91421d82e134385f0fe23b8950af35ac73e50d91eb0371cd18d.png"
+        },
+        {
+          "name": "デリヴァランス",
+          "description": "ドローンの大群を飛ばす。ドローンには敵の最大ライフを減らす効果と、味方に追加ライフを与える効果がある",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8ebbedfc4f56c80106e83280513eaf433471ac96900f782ffef8fcf764faeebb.png"
+        }
+      ]
+    },
+    {
+      "key": "domina",
+      "name": "ドミナ",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1161c112292c56c052c0ae711792fcde06e3251b98bc9709e582dd7585b5dcd6.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 400,
+        "health": 250,
+        "total": 650
+      },
+      "abilities": [
+        {
+          "name": "フォトン・マグナム",
+          "description": "中距離まで届くビームを放つ。最後まで放射し続けると、高威力のショットへと変化する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6a661b5275bfbc67f584a80c080b17b7cb4d91d665294b9bbb364e9bcf31812b.png"
+        },
+        {
+          "name": "バリア・アレイ",
+          "description": "複数のパネルで構成されたバリアを設置する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/909e0bb235934d7961a51fe41f90fadafaee33784b8199f62c92f3dd946da76f.png"
+        },
+        {
+          "name": "ソニック・リパルサー",
+          "description": "敵を押しのける。その際に壁へとぶつかった敵はスタン状態になる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7f54ab0fa0be464fe670b61ee5665e5b3b562909f2e9afa7ad1b95e568e91b1f.png"
+        },
+        {
+          "name": "クリスタル・チャージ",
+          "description": "着弾後に爆発するクリスタルを投射する。再入力で爆発のタイミングを制御することも可能",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2a15136441c63461f9c187e39d902fd64710aebc7e87d8430839cc083ca9b45.png"
+        },
+        {
+          "name": "パノプティコン",
+          "description": "硬質光のバリアを投射して、敵を閉じ込める。バリアは一定時間経つと爆発する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5685ed099de9b6438a493e6060d692bd10ce08424cff88a767dc5b13a7edcb5e.png"
+        }
+      ]
+    },
+    {
+      "key": "doomfist",
+      "name": "ドゥームフィスト",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ff5c54f43ad253c7faeda9c4ed31d42582ea6b19205d197866f3dd0c0aa14c16.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 525,
+        "total": 525
+      },
+      "abilities": [
+        {
+          "name": "ハンド・キャノン",
+          "description": "近距離で有効な範囲攻撃武器。リロードは自動で行われる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3b3a99fadfbd19067a787782d7152ae500ada480f40ae773b9c6d5f8909dd80f.png"
+        },
+        {
+          "name": "ロケット・パンチ",
+          "description": "長押しでパワーをチャージし、離すと前方に突進して敵を吹き飛ばす。さらに敵を壁に叩き付けると追加ダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/79fa2ac1beeaaecc23735e2bc41068a99838c76ff626a12ac07fcdc5efd70bd9.png"
+        },
+        {
+          "name": "サイズミック・スラム",
+          "description": "狙った方向にジャンプし、地面を砕く",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4bc170a43b0d19921079fefcf16e66d720019271e37303413971b12e0ced9eca.png"
+        },
+        {
+          "name": "パワー・ブロック",
+          "description": "前方からの攻撃を防御する。ブロックしたダメージが大きいと〈ロケット・パンチ〉の威力が高まる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2af34b2442543da4b3a588ae8791c2b9f8a24cf5e17c935f146a7c88b0d02bd4.png"
+        },
+        {
+          "name": "メテオ・ストライク",
+          "description": "Qで上空に飛ぶ。着地点を指定後、アビリティ3で地上に突撃する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dd68ed0cdc85d2bd688a487dc0778cd64e7dc1d11f8e4d5e7bbf421fb1144315.png"
+        }
+      ]
+    },
+    {
+      "key": "dva",
+      "name": "D.Va",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/df5a5532862d9292634fb3dc0e51a4705aa601de65e5e815513ccc663d84de56.png",
+      "hitpoints": {
+        "armor": 325,
+        "shields": 0,
+        "health": 350,
+        "total": 675
+      },
+      "abilities": [
+        {
+          "name": "フュージョン・キャノン",
+          "description": "近距離用のオートマチック兵装。範囲攻撃に適している",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1b8dd81bd8353ce0a66009578dc4d7b6a51464e5bc7898010053ff46159f4fa1.png"
+        },
+        {
+          "name": "ライト・ガン",
+          "description": "オートマチック・ウェポン",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/969a72050f376bf6ee5ed5550a8033cdd661f2f9883c1229e9ee70dd3ae58ec4.png"
+        },
+        {
+          "name": "ブースター",
+          "description": "進行方向に飛び上がる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7076c739fe2c1d11f4f118d9e22a3d8f66303242434b71a7e4451e62f5d27b65.png"
+        },
+        {
+          "name": "ディフェンス・マトリックス",
+          "description": "正面からの投射物をブロックする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e3806878b38cbab585c4d48e05f2dd63817a36a4f69cedbaf62fd3af6ca5bbd2.png"
+        },
+        {
+          "name": "マイクロ・ミサイル",
+          "description": "爆発するロケット弾を一斉に発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/adcd1c898f2ab66779554711451303ee83ca15b70a0951e18964520f5f02566a.png"
+        },
+        {
+          "name": "自爆",
+          "description": "メックをオーバーロードさせてから脱出する。メックは一定時間後に爆発する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3ae91694dd2901ced5b3c6789b686fbda4175f807abe602101df6a26bfdf3491.png"
+        },
+        {
+          "name": "メック召喚",
+          "description": "新しいメックを召喚する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7117851e322ccefb98a710f926daffe1aabee9d47662c26d35c938c633897e71.png"
+        },
+        {
+          "name": "緊急脱出！",
+          "description": "メックが破壊された際、緊急脱出する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3aa95031ecc236c99d902971910edece23982e95743630e949b1259ba48f5c63.png"
+        }
+      ]
+    },
+    {
+      "key": "echo",
+      "name": "エコー",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d4f2d5b0c2b7e82d61353186c5f23152ccba9d3569b50839aa580dca3e9114ba.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 75,
+        "health": 150,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "トライ・ショット",
+          "description": "トライアングル状に同時に3発の弾を発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/eda680580d3957d2c06b3006fbe0f0b2f7637a3931c05a266a357984587e4f9f.png"
+        },
+        {
+          "name": "スティッキー・ボム",
+          "description": "時間差で起爆する粘着性の爆弾を一斉に発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5dd1a8e7c4097e3822db4a36d6bb5277203da4ba6bfd1ebe5ecab0311d199dbc.png"
+        },
+        {
+          "name": "フライト",
+          "description": "前方に急上昇し、自由に飛び回る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/edbca7879024d5b35a24e942ee5ebdec9780a425ef5e8d64f8113f7d5f2048b3.png"
+        },
+        {
+          "name": "フォーカス・ビーム",
+          "description": "数秒間にわたってビームを放つ。ライフが半分以下の敵に大ダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/864e210890c8ac666d29fdda118a2a8c0ae16fc5471812ef4da4ab322d11bb8e.png"
+        },
+        {
+          "name": "コピー",
+          "description": "ターゲットしたヒーローをコピーする。発動中、敵はヒーローを変更できなくなる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d374c55bb34248543dc4b63b73738fd17a488afa29eaa63f800008edda7f3907.png"
+        },
+        {
+          "name": "グライド",
+          "description": "ジャンプボタン長押しで降下中に滑空できる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4668bf556984868ba73b931a45fa61bae503f7c67371f1a4f8085c8f992cd6bd.png"
+        }
+      ]
+    },
+    {
+      "key": "emre",
+      "name": "エムレ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c51e2f698138861c0e3b6cfab3c3ca9d67fd709be175e7c397aa6f2649712a30.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "シンセティック・バースト・ライフル",
+          "description": "3点バースト式の武器  長押し中、ズームインする。射撃精度が向上するほか、減衰距離が伸びる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6db52d088dd5272c7b6aca53746b68a0f6ea7ad23a2ee8143c11d495d602f64b.png"
+        },
+        {
+          "name": "サイバー・フラグ",
+          "description": "バウンド直後に起爆するグレネードを投げる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/58eeb3950828ceadc16565163bfc03231a0cecdf3a0a6ce78de34bdff4bf09bf.png"
+        },
+        {
+          "name": "オーバーライド・プロトコル",
+          "description": "オーバーライドが始まり、破壊兵器へと変貌する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fc8088a2968e2850ef438645fd2286ea7abe1779b2eae5cf85638168736ecddc.png"
+        },
+        {
+          "name": "オルタード・バイタル",
+          "description": "自己回復のパッシブが早期に発動する。またパッシブ開始時、ライフが即座に30回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fec616f100308698fe85eb6c7a36daa8af6d26181de8fa2f0e59ee2414bcb6df.png"
+        }
+      ]
+    },
+    {
+      "key": "freja",
+      "name": "フレイヤ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/811963897c352d9f178bec882d94bd0281074feee7c429c5145b6b8ea8ebe862.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "ボーラ・ショット",
+          "description": "爆発するボーラを発射する。当てた敵を拘束し、周囲の敵を引き寄せる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f3b485b68fdf2b703537b38d2c9a30a6377772ca42e5ae6442c3cad5c3cc98be.png"
+        },
+        {
+          "name": "クイック・ダッシュ",
+          "description": "移動方向にダッシュし、〈テイク・エイム〉の矢を装填する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/571c4a87204cad7117e3f127e94f5a54c93f6e81674f46d25b73eddd76eaa2c2.png"
+        },
+        {
+          "name": "テイク・エイム",
+          "description": "照準を絞り、爆薬付きの矢を勢いよく発射する。照準中は移動速度が下がる。〈テイク・エイム〉の矢は〈クイック・ダッシュ〉を使うと回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a86fa2849d7ab515d256e390e75387e4ae306f5d64c5cf24a1ba33038da91e45.png"
+        },
+        {
+          "name": "アップドラフト",
+          "description": "風の力を利用して、上空へと飛び上がる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cf6b96a730b9a772c6ff9320dfb0723dbb304c52b2ef666651739d8716d5f96e.png"
+        }
+      ]
+    },
+    {
+      "key": "genji",
+      "name": "ゲンジ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/156b12c20b1aea872c1eeb5bb37a7de1047b2ab30ecefd0663a8925badde1ea8.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "手裏剣",
+          "description": "高精度の手裏剣3連射  3本の手裏剣を扇状に発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/75fe50db5b246e9786632963f6e1126029bd270bfaaa8b9f564e303a9b938906.png"
+        },
+        {
+          "name": "木の葉返し",
+          "description": "自分に向かってくる投射物を照準方向にはね返し、近接攻撃をブロックする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6947d8eeddce8d295ed96525cdabfe36c94b3b67b50baf87aabb8ae61d32495a.png"
+        },
+        {
+          "name": "風斬り",
+          "description": "前方に斬り込み、ダメージを与える。敵を倒すとクールダウン時間がリセットされる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/76519481d06f1a23600eb1f3d3c163268ff6e55ecde410751b508de434a7426b.png"
+        },
+        {
+          "name": "龍撃剣",
+          "description": "超強力な近接攻撃",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/12e6d44381805e22db2b69679028bdf5ee626586663d44e8deb20e96ae7657c2.png"
+        },
+        {
+          "name": "サイバー体術",
+          "description": "壁登りと二段ジャンプが可能",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d006aeb97a48941414492f160bf22b9a5c129ddb6e1956275752953eb1b0472e.png"
+        }
+      ]
+    },
+    {
+      "key": "hanzo",
+      "name": "ハンゾー",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/78b61c3e806fb26b02b8980fba62189155074fc15bd865b0883268e546030be5.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "嵐ノ弓",
+          "description": "長押ししてチャージすると矢の飛距離が延びる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e38382e38d83492de12d3428bc30ef2f8833f8cef89298daa5a5a6d0b4420269.png"
+        },
+        {
+          "name": "電光石火",
+          "description": "発動後の矢5本が跳ね返るようになり、ある程度の威力を保ったまま速射できる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5b2a2a02cf8087005216db110ab5aba37112eeca29c32f4491abb29caeb1910b.png"
+        },
+        {
+          "name": "鳴響矢水",
+          "description": "着弾後、一定時間だけ敵の位置を明らかにする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3a378bcfc321bb2b2416db2ae3a52d22b2ca771d6f69522c1950132c5fefa59d.png"
+        },
+        {
+          "name": "体術",
+          "description": "2回ジャンプする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8b0423ecd27436f808b99254ad57bc453a839c5590c6a5b925855f13dd4ecc18.png"
+        },
+        {
+          "name": "龍撃波",
+          "description": "龍の精霊を解き放ち、軌道上の敵に大ダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ec52a328bd2febd049dddd9f61a0004b0688688d3254929002ef22338e205366.png"
+        },
+        {
+          "name": "壁登り",
+          "description": "壁に向かってジャンプすると、壁を駆け上がる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d23ec9b85d43aa414b489bf5ccfcc683b9f6b66f866d723ed4c0cb7556a8cbbd.png"
+        }
+      ]
+    },
+    {
+      "key": "hazard",
+      "name": "ハザード",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ca48b96dbae6ea7f58ce8a5e73513c8c62b1685bdbf258020fb78bb21a008b5f.png",
+      "hitpoints": {
+        "armor": 225,
+        "shields": 0,
+        "health": 425,
+        "total": 650
+      },
+      "abilities": [
+        {
+          "name": "ボーン・スティング",
+          "description": "複数のスパイクを一斉に発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a840d02b1e6b87c8f1884b386be7a216842fac65ad24fa6c8aa88c45c4a4421a.png"
+        },
+        {
+          "name": "スパイク・ガード",
+          "description": "前方からの攻撃を防御し、追尾式のスパイクを付近の敵に発射する。発動中は弾薬を回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d1d1bb23a702a4e9f831b3acf5dd85f2da68459059f84f080b6c519f0f1db1d9.png"
+        },
+        {
+          "name": "バイオレント・リープ",
+          "description": "前方に突進する。もう一度発動すると、切り裂き攻撃で敵をノックバックする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b82ab1a5ed08f039461be720c32b8c54e66cdb78d40b798feb69dbbea807303f.png"
+        },
+        {
+          "name": "ジャギー・ウォール",
+          "description": "付近の敵にダメージを与えてノックバックする棘の壁を射出する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8c82b489f5d8756f98a6671e445d394e93ee5658135c9a54122d079d5d59995b.png"
+        },
+        {
+          "name": "ヘヴィ・レイン",
+          "description": "無数のスパイクを上空から降らせ、敵の動きを止める",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/85894376fb7803b87f71e900d73606e2daa14c0ca11122c100871b3d20bd2024.png"
+        },
+        {
+          "name": "クライミング",
+          "description": "低い壁をよじ登り、足場の際をつかむ",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d006aeb97a48941414492f160bf22b9a5c129ddb6e1956275752953eb1b0472e.png"
+        }
+      ]
+    },
+    {
+      "key": "illari",
+      "name": "イラリー",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ce42d1455e03e79f321345fea84b27a8918b5db8bd7ab9b2ca9e569606ede9e4.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "ソーラー・ライフル",
+          "description": "長射程の自動チャージ型ライフル  ソーラーエネルギーを消費する中射程の回復ビーム",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b5bbee12c4a45526f3ab0c73b0027eae88f4da57192e68e9b30bbc9da3e032a6.png"
+        },
+        {
+          "name": "キャプティブ・サン",
+          "description": "爆発するソーラーエネルギーの球を発射する。巻き込まれた敵は動きが鈍り、効果中に一定のダメージを受けるとさらに爆発する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/853a9ed59d241e1fd477a7c36dc826a1cf3321114b5ee3095780aa800649ff8e.png"
+        },
+        {
+          "name": "ヒーリング・パイロン",
+          "description": "味方を回復させる柱を設置する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/97656e46d5815627032b7e9783381a09b1dee4c553c802afc3c57767768bd281.png"
+        },
+        {
+          "name": "アウトバースト",
+          "description": "現在の移動方向に勢いよく突進し、敵をノックバックする。ジャンプ長押しでより高く跳べる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fa2fa52626c761a91588ac62d835ddc7ec2f9a1d9034d06587e39129b8c2a94b.png"
+        }
+      ]
+    },
+    {
+      "key": "jetpack-cat",
+      "name": "ジェットパック・キャット",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/03a184cd0de27091e0099ac22635ad9615a8f6997881a5c25cc5f2444764f729.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "バイオティック・パウショット",
+          "description": "味方を回復し、敵にダメージを与える中射程の拡散弾",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f69a07e928053431f7a1ac72a29c045d3eba5b6ae3bf29fdb21ee24e6f5d41e3.png"
+        },
+        {
+          "name": "ワイルド・フライト",
+          "description": "進行方向へと加速する。味方を運搬している間、燃料の回復は遅くなる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f957b6f5803bd08a99eec642365c30f22e817ad33afb4b95d8e1856c87cba1b2.png"
+        },
+        {
+          "name": "ライフライン",
+          "description": "運搬モードへと切り替わり、味方にワイヤーを繋げて運ぶことができる。移動速度が上昇し、繋がれた味方は回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d0c899ac61aa5b72e7de931b014b02176605fba7c9f022cc7a968b6cc6ebf19b.png"
+        },
+        {
+          "name": "ゴロゴロ",
+          "description": "回復パルスを展開する。展開時に付近の敵がノックバックするほか、回復パルスの間隔は時を追うごとに狭まっていく",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4632fb81d5af7bcac3502108fa283f614b98cbeb18e3149808dcc2e50042f927.png"
+        },
+        {
+          "name": "キャットナッパー",
+          "description": "地上に向かってダイブし、敵をノックダウンする。その後、最も近くにいる敵を拘束する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/01fd22b375088be5c2b0e3a00a8e09c97de48d634d939627d3d46b13a2428c28.png"
+        }
+      ]
+    },
+    {
+      "key": "junker-queen",
+      "name": "ジャンカー・クイーン",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/06eeecb359f311f43a8f5121d4f9f3a93c565d70b30e94ef543c05596c9a39dc.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 525,
+        "total": 525
+      },
+      "abilities": [
+        {
+          "name": "スキャッターガン",
+          "description": "ポンプアクション式のショットガン",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2d5df1a8232c23ea96183a39a9ce930b26c53e87dc12ff77bd972e4805690c6f.png"
+        },
+        {
+          "name": "コマンディング・シャウト",
+          "description": "自分と味方の最大ライフと移動速度を一時的に上昇させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ef3c2fb9bdb4c913d2b048ef4363fce335553c8f4ee74524f2af86af961ba648.png"
+        },
+        {
+          "name": "カーネイジ",
+          "description": "前方のすべての敵に傷口を残し、継続ダメージを与える。命中した敵1人につきクールダウンが短縮される",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/85c3796fdb062e1038fb130450f1586ce1f3c047886b0baf13f937d93a4e05d4.png"
+        },
+        {
+          "name": "ランペイジ",
+          "description": "前方に突進して接触した敵に傷口を残し、継続ダメージを与え、さらに回復を阻止する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/17ff06bcf2e7fe6c2f66590573e6b274b416f0a8855f925c4479ac20b4d8d977.png"
+        },
+        {
+          "name": "アドレナリンラッシュ",
+          "description": "傷で与えたダメージの分だけ、継続的に回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5a05a31b7196b53d751219c5d4d0814cc58e37db5eeb37a1648b37327309f794.png"
+        }
+      ]
+    },
+    {
+      "key": "junkrat",
+      "name": "ジャンクラット",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7660b9fc6f25f30858fdd8797fe0d52b2306f1e78fef99843f58a274e69af046.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "フラグ・ランチャー",
+          "description": "バウンドするグレネード弾を発射",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b8ba613f23c771523b25caf8db1d43f518c9267b13fea2a684a2610ae46585f1.png"
+        },
+        {
+          "name": "コンカッション・マイン",
+          "description": "Shift (左)で地雷を投げ、アビリティ1で起爆可能。ノックバック効果あり",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/11dd2b5573ebc5ec231911d443733507e5d92822ff5b6d5dd93cd69c9827c92a.png"
+        },
+        {
+          "name": "スティール・トラップ",
+          "description": "敵の動きを止める罠を設置する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3b231767363675405aeda173403c44740cca76b8d3653730c075f561e513f935.png"
+        },
+        {
+          "name": "RIPタイヤ",
+          "description": "爆発するタイヤを操作し、起爆する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/946029ed03ebc3dae775fd0b0ca80faa2f8627cb568c51170190a432ba9e3e50.png"
+        },
+        {
+          "name": "トータル・メイヘム",
+          "description": "自分の爆弾でダメージを受けない。死亡時に爆弾をばらまく",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4720883e2f44ebac617748f717908183a4cb7e6e90d29226602a54708c4f57d1.png"
+        }
+      ]
+    },
+    {
+      "key": "juno",
+      "name": "ジュノ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c0167d251e57b0aa2b1e16c37d87f0e7c77263db9dd0503d77b5f2589bf3e4a0.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 150,
+        "health": 75,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "メディブラスター",
+          "description": "味方を回復し、敵にダメージを与えるバースト系武器",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d75b0943dbbf45729efb48ab3d40bef9de9e4742d208f887d57ed9fd75d4ed9e.png"
+        },
+        {
+          "name": "パルサー・トーピード",
+          "description": "でロックオンし、サブ攻撃で誘導弾を発射する。誘導弾は味方に継続回復を、敵にダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/24ad567c5400d4eb7a5d7b9f938a197654e5465dfd2e881754e8f4f699f84088.png"
+        },
+        {
+          "name": "オービタル・レイ",
+          "description": "前方に進む光の柱を呼び出す。光は味方のライフと攻撃力を上昇させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5723182cddc6719ee19a5b35d840d2fb3ed933c861f3f66514d66fc29630c84a.png"
+        },
+        {
+          "name": "ハイパー・リング",
+          "description": "通過した味方の移動速度を上昇させるリングを設置する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bfdddb5d1857a8a13713381d3fe6cc6b690f71efef9131147116adc10b00d245.png"
+        },
+        {
+          "name": "グライド・ブースト",
+          "description": "水平方向に素早く滑空できる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/39ea7b359006e25f0b6d373c87e690209c9daefed5196b51f945f3d1a2743af0.png"
+        },
+        {
+          "name": "マーシャン・オーバーブーツ",
+          "description": "空中でSpaceを押すと2回ジャンプする。Space長押しでホバリングする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/edb2f175e4231589a8fc9fd2607f8c98c2566ec6f517e699194164274bfee94e.png"
+        }
+      ]
+    },
+    {
+      "key": "kiriko",
+      "name": "キリコ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/408603fe037e8576078eaac5eab2fb251489ced4003b11f5f522776d43d0b83d.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "快気の御札",
+          "description": "味方を自動追尾する回復のお札を展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4ebf8c956da05591160da7416299bb3b641a268fbf334debf7892b8c7b3c326d.png"
+        },
+        {
+          "name": "クナイ",
+          "description": "遠距離まで飛ばせる投射物を放つ",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/81466ccd866d29b1edc9884cd0842b2e32ef0b5712198ea137ae212494feb1f4.png"
+        },
+        {
+          "name": "神出鬼没",
+          "description": "味方1人の元に瞬間移動する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/155642954764b574f3b6845af58961e941a26a12e5d05053a8f7101f6005cc97.png"
+        },
+        {
+          "name": "鈴のご加護",
+          "description": "ご利益のあるお守りを味方に投げ、短時間だけ無敵にし、ほとんどの状態異常を解除する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a5c1a2e74ccb598d376aac2c1cd255aa46570a08886e72b06d5a6f64203c8072.png"
+        },
+        {
+          "name": "狐走り",
+          "description": "召喚されたお狐様が前方に駆け抜ける。その足跡を辿った味方は、移動速度と攻撃速度が上昇し、クールダウン時間が短縮される",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4ad7d2913e24d538c906eaa95c0e87f148d63f8dfe3c443c408f443c2de8bae8.png"
+        }
+      ]
+    },
+    {
+      "key": "lifeweaver",
+      "name": "ライフウィーバー",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3376515cebed0904012e67e956f6d1b9c12e03da642845eeaf787b7e4c7b339d.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 50,
+        "health": 200,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "ヒーリング・ブロッサム",
+          "description": "長押しでチャージし、離すとターゲットの味方を回復する 使用していない間も、通常より低いチャージ率で自動的に溜まっていく",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bd2fde345ddbf726922a007add13188566a2810aee2fe14773c5dedf2778d34f.png"
+        },
+        {
+          "name": "ソーン・ボレー",
+          "description": "まとまった投射物を高速で発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6f96b55eaf1922f2ea57166062c4cd7f7c373cbcc1795888def7a9aa24abb258.png"
+        },
+        {
+          "name": "ペタル・プラットフォーム",
+          "description": "乗ると上昇する足場を投げる。足場の高さは降りると元に戻る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/040f6c05bfe6a0540c0139034d13ac09f3a4f6e2c611ff75113ac70596a65da7.png"
+        },
+        {
+          "name": "若返りの風",
+          "description": "進んでいる方向にダッシュして自身のライフを少し回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9be0b14c8d6a1ac5f73ca118487e1fbe0feaae1be7b87c12bd9eb44bd0e82f57.png"
+        },
+        {
+          "name": "ライフグリップ",
+          "description": "味方1人を引き寄せる。引き寄せられている間、味方は敵の攻撃から守られる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7202804f05ffb9fce9f66f7dabfd4104981671fe1d632326c4b3a04a5bbfe2ad.png"
+        },
+        {
+          "name": "命の樹",
+          "description": "味方を回復する樹を植える。樹は発芽すると即座に味方を回復する。その後一定間隔で回復効果が繰り返される",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/03d294ff2fbd7cf4a66220be5734b3607bc5cfc57d3af2a0ce4ad823e1656b75.png"
+        }
+      ]
+    },
+    {
+      "key": "lucio",
+      "name": "ルシオ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/040bb13f5123ab93faad2f95627ba184608aef4b2469a4d3003859c7087df044.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "ソニック・アンプリファイア",
+          "description": "音波弾を発射するランチャー",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5dc58c552d2b8ee4018f166b7a1c7eeda839c631fa09fb3bfac3e413e2a6e47d.png"
+        },
+        {
+          "name": "クロスフェード",
+          "description": "〈ヒーリング・ブースト〉（回復）と〈スピード・ブースト〉（移動速度上昇）の2曲で付近の味方をサポート",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/452af9dde57a4c3c85c9089dd28b57738fe33e225048602196989bea672450bd.png"
+        },
+        {
+          "name": "アンプ・イット・アップ",
+          "description": "再生中の曲の効果がアップする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9b1c9a43f51d39286dd9204b24cc590eae9f40fa4970d54676565240285a8339.png"
+        },
+        {
+          "name": "サウンドウェーブ",
+          "description": "衝撃波で近距離の敵をノックバックさせる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f0ccd9830fc8f3b3a719faf0a6b4babf06677bd136287812efe7c6fa358cc389.png"
+        },
+        {
+          "name": "サウンド・バリア",
+          "description": "一定時間、付近の味方を守る追加ライフを展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f84b670bff38d0b97c44a084159bb41c140b5cf7e52348782ab9755d47cdbb0a.png"
+        },
+        {
+          "name": "ウォール・ライド",
+          "description": "壁に向かってジャンプすると、壁伝いに移動できる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/20518d53a53b3f8cc26816f7d55182e43331b33b5d0eb2b491d12d6a59ea0941.png"
+        }
+      ]
+    },
+    {
+      "key": "mauga",
+      "name": "マウガ",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/33d39bb439c08975197fc52eff4874716839711b5356c4fdc174f9c24bac1d0e.png",
+      "hitpoints": {
+        "armor": 150,
+        "shields": 0,
+        "health": 575,
+        "total": 725
+      },
+      "abilities": [
+        {
+          "name": "オーバーラン",
+          "description": "前方に突進し、地面を踏み付けて敵を吹き飛ばす。突進中は移動を妨害されない",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/10f358f93cd59c2f2b31278cd09bfc7a986c7af6e9a15cdf96db16375b596cee.png"
+        },
+        {
+          "name": "カーディアック・オーバードライブ",
+          "description": "自身の受けるダメージ量が軽減され、付近の味方は敵にダメージを与えるとライフが回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/33ccf2e8708d8625137b15c81528efd8b5c5100dcb29d137ab9a4750be3c9229.png"
+        },
+        {
+          "name": "バーサーカー",
+          "description": "クリティカル・ダメージを与えると一時的に追加ライフを得る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/50b53f48c47c549e7926ef5ab9976a3b03327b0cf6d6df4dea501c8e544aa204.png"
+        },
+        {
+          "name": "ケージ・ファイト",
+          "description": "自分と敵を閉じ込めるバリアを展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fca5c4296a62de30239f2f372ff70574b74da36d1524101485038e94a86c658d.png"
+        }
+      ]
+    },
+    {
+      "key": "mei",
+      "name": "メイ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4a55ced3bd597fb08e0fde9dc007f8543ac616ba98ca3db9b0e4d871a8ae17f8.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 300,
+        "total": 300
+      },
+      "abilities": [
+        {
+          "name": "凍結ブラスター",
+          "description": "敵の動きを鈍らせる近距離用スプレー・ガン  長距離用のつららを発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/02f402130df2ecfcedb6c5bdb7dd3eea199d1d1e833c567bb810c7edd7a717e7.png"
+        },
+        {
+          "name": "クリオフリーズ",
+          "description": "無敵状態になり、ライフを回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b7d01a56fe14d8b456aa716773760f51581a61e88a889e3e48e6a2f929388c48.png"
+        },
+        {
+          "name": "アイス・ウォール",
+          "description": "正面に壁を作る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d5ac85b5a26546ea052de796e1da27090b559bbcda27b7e9613aaaa09813d2f7.png"
+        },
+        {
+          "name": "ブリザード",
+          "description": "広範囲の敵を凍結させる天候制御ドローンを展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7d834967543c76f8bccf5ea7b4d33a8ee9b335ec1e7a96ed444c0251b9fe937d.png"
+        }
+      ]
+    },
+    {
+      "key": "mercy",
+      "name": "マーシー",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3bfb8bd8ec827e53d870f1238ab73d8aa1f5dbfbcfaaf7f96ffcd35b5c6102ab.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "カデュケウス・スタッフ",
+          "description": "長押しで味方のライフを回復  長押しで味方が与えるダメージを増加",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/149e46752f75bc9f6fece61f1a7b8e08bd1d3dbea8a723efd518f6b9aa4a70b0.png"
+        },
+        {
+          "name": "カデュケウス・ブラスター",
+          "description": "オートマチック武器",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d113f98e3c2a70b43ea99d9f4ccf7f9cc3b140c029e4fa9db6733a9ab3474fb0.png"
+        },
+        {
+          "name": "ガーディアン・エンジェル",
+          "description": "味方のもとに飛んでいく。飛行中はジャンプで前方に発進し、しゃがみで上方向に発進する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b8cee01a366f6c5fb1298426463aa27724bec1dd2b6a92a36b42b3884a73e8d5.png"
+        },
+        {
+          "name": "リザレクト",
+          "description": "倒れた味方を1人生き返らせる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9dcafd3a6c3cbb12be763d13ee1b06a677fdf7f740eee29f20921927d6cab337.png"
+        },
+        {
+          "name": "エンジェリック・ディセント",
+          "description": "ゆっくりと降下する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8a0f7aad37480b3adbe6e7ebafc2bd253397bec324148812e27caa3d1ee8ab92.png"
+        },
+        {
+          "name": "ヴァルキリー",
+          "description": "飛行できるようになり、各アビリティが強化される",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8465f0b6e120a6cdbd7b4b0124adcfe6a1585e6b417275f9c6cf86d248318ffd.png"
+        }
+      ]
+    },
+    {
+      "key": "mizuki",
+      "name": "ミズキ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a9733c2367e0cbd70b9316fd2e1e17028653ec56d0051ea6ff098531dc4f99fc.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "霊伐鎌",
+          "description": "鎌刃を投射して敵にダメージを与える。鎌刃には、オブジェクトに当たると跳ね返る性質がある",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/407d795518aaf89ffd41fda4c392421c7e783c3486292bcabd412274ae8bfe6d.png"
+        },
+        {
+          "name": "快気の笠",
+          "description": "味方の間で跳ね返る笠を投げ、命中した味方を回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c97cbb4a6b1e7be7ce6d0f26434efc8e6d18674b24d29bff3d17389b43dedec9.png"
+        },
+        {
+          "name": "呪縛",
+          "description": "鎖を放ち、敵の移動を妨害する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3404150b1babd17665ceced735828eedb701ee1d276debcedcd1a5d95d8d1cf7.png"
+        },
+        {
+          "name": "形代",
+          "description": "前方に跳躍する。再入力すると、元の位置へとワープ可能。発動中、移動速度が上昇する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/291ad4dfccb3678979f4f5ca8c24d219b9bb61a383731057547760646dcd5c04.png"
+        },
+        {
+          "name": "霊域結界",
+          "description": "結界を展開する。結界には範囲内の味方を回復する効果と、結界を通過する敵の投射物を吸収する効果がある",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/79d5017e5ae3c3fb8fa91b5ea13f890add3042c5b0ed9532e62fe4ee138ca033.png"
+        },
+        {
+          "name": "癒しの波動",
+          "description": "付近の味方を回復する。ダメージか回復を与えると効果が大きくなる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/11ba949531e0cf7d2fab159f0806c08c31a9e770836ec5efcc408df043b72995.png"
+        }
+      ]
+    },
+    {
+      "key": "moira",
+      "name": "モイラ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f48f8485056d5d00dad195859188d23e50f7126b8b08b5646f46ef1b42f5e1de.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "バイオティック・グラスプ",
+          "description": "長押しで前方の味方を回復する。使用するとバイオティック・エネルギーを消費する  長射程のビーム・ウェポン。ダメージを与えると自身を回復し、バイオティック・エネルギーを補充する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e74ba239c376cb9de7a0f82418f4713e3183092d48988198825dd376da0b0a12.png"
+        },
+        {
+          "name": "バイオティック・オーブ",
+          "description": "付近の味方を回復、あるいは敵にダメージを与えるボールを展開する。ボールは壁などに当たると跳ね返る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/66a472473965ecbe525afb991bab0f950248542232a13a3d34607d9b71a8ddee.png"
+        },
+        {
+          "name": "フェード",
+          "description": "透明になり、移動速度が上昇、さらに無敵状態になるが攻撃ができなくなる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e71cb3d2a4e880089a87b3a2ff609c5484fb8e04d6151507179646b1b4d97d64.png"
+        },
+        {
+          "name": "コアレッセンス",
+          "description": "味方を回復し、敵にダメージを与えるビームを発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8791876838df722d9153ecc6d1c7a76445892d13fcec304609435b2f91fcc2c1.png"
+        }
+      ]
+    },
+    {
+      "key": "orisa",
+      "name": "オリーサ",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a73958a28551f5254f3ab3f97c5f5f8d698a95c0b6a515d1a2b1caac169205a6.png",
+      "hitpoints": {
+        "armor": 300,
+        "shields": 0,
+        "health": 300,
+        "total": 600
+      },
+      "abilities": [
+        {
+          "name": "フュージョン・ドライバー改",
+          "description": "オートマチック式のヒート・ウェポン",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80e4eabdaee092406062ae026ab50f5491d0d634fd27d791e999f03f798ae5ab.png"
+        },
+        {
+          "name": "エネルギー・ジャベリン",
+          "description": "敵をスタンさせ、ノックバックする槍を放つ。敵を壁に叩きつけるとより効果的",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/50c5f92db1d3688b0395c88270a04f9730e468d0ca63f1c13c259b848b6e1b49.png"
+        },
+        {
+          "name": "フォーティファイ",
+          "description": "一時的な追加ライフを獲得し、受けるダメージを軽減する。移動も妨害されなくなる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a2003ee5e140d12cf850a0e5f1092e47f78b8111464d55489abb194bbbfa5523.png"
+        },
+        {
+          "name": "ジャベリン・スピン",
+          "description": "槍を回転させることで前進速度を上昇させ、飛んでくる弾丸を破壊し、近接攻撃をブロックし、敵を押しのける",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3d688c6c6361f15ec3f83e6e42a39accb5b498f4e1fd8de9cd8d7daf805be759.png"
+        },
+        {
+          "name": "テラ・サージ",
+          "description": "掲げた槍を回転させて敵を引き寄せ、Qで槍を振り下ろす。振り下ろすまでの時間が長いほど威力が上昇する。発動中は〈フォーティファイ〉が発動する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a0e2704fdc1d50a9670c8629b9da8cb7b2491523c3dd4616912e25b477b35427.png"
+        }
+      ]
+    },
+    {
+      "key": "pharah",
+      "name": "ファラ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/60ac2d5de4a6d34644d8872233da402f1436c87f804bb11a21661bb30bf4a51f.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "ロケット・ランチャー",
+          "description": "遠距離用のロケット砲",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f41d86b7413491d430cf2bf9802f8110062ab190819b423098a642286443ff74.png"
+        },
+        {
+          "name": "ジェット・ダッシュ",
+          "description": "水平方向に加速する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/025fb94110f48c67d64e41536962e670410d6ba9fe38f2bb6255ff0750c6b9c8.png"
+        },
+        {
+          "name": "ジャンプ・ジェット",
+          "description": "上空に急上昇する。さらに燃料が回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4bf45e79768cc35aadd3ac66e31d19ac75e1bb088480c490866fdafcf9fc49b6.png"
+        },
+        {
+          "name": "コンカッシブ・ブラスト",
+          "description": "榴弾を発射して、敵をノックバックさせる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/666c55a0b7810194a486e73fddac9dac6b64eb0303a14be8d1453c9f29c210df.png"
+        },
+        {
+          "name": "バレッジ",
+          "description": "小型ロケット弾による集中砲火",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/69a9067ddf8a7138d200c3bad9d01e09760df5b3f07bfb1cfa82ee70f385576c.png"
+        },
+        {
+          "name": "ホバー・ジェット",
+          "description": "長押しでホバリングする。燃料が空の場合は落下速度が遅くなる。燃料は地上にいる間のみ充填される",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/452f72706d3da3b217d0a2e749aebcd7483f7128b048692ebd86dc905612b866.png"
+        }
+      ]
+    },
+    {
+      "key": "ramattra",
+      "name": "ラマットラ",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ddef7c9fb8ce4256e8508196b486f81950efe7aaa6cf27fec4668beb4cd15774.png",
+      "hitpoints": {
+        "armor": 100,
+        "shields": 0,
+        "health": 425,
+        "total": 525
+      },
+      "abilities": [
+        {
+          "name": "ヴォイド・アクセラレーター（オムニック・フォーム）",
+          "description": "投射物を連続で発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b860a9ba344656b591451cf17d419633e75c0c1abf2737e0c3c470fe94b70768.png"
+        },
+        {
+          "name": "ヴォイド・バリア（オムニック・フォーム）",
+          "description": "狙った位置にバリアを張る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/94d29f925b938d4898f440d06d8543e49c772e09cb89ef9812826fb2be54f9c7.png"
+        },
+        {
+          "name": "パメル（ネメシス・フォーム）",
+          "description": "パンチを繰り出す。殴るたびにバリアを貫通するエネルギーの波を発生させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b38ab7e9dddd67875853b77de9a3b9db270ea1d9d107753debae2c07f1f5061f.png"
+        },
+        {
+          "name": "貪欲な渦",
+          "description": "エネルギーの球体を放ち、着弾地点に渦巻く力場を発生させる。範囲内の敵は下向きに引っ張られ、その動きも鈍くなる。投射中にアビリティを再入力すると、力場を早めに展開できる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80e96eddbc10af5e1b08c7392f4f61aabc0e5408e31e72961595a936ccceabcc.png"
+        },
+        {
+          "name": "アナイアレーション",
+          "description": "〈ネメシス・フォーム〉になり、近くの敵を自動攻撃するエネルギー体で自身を取り囲む。敵にダメージを与えている間は、持続時間の減少がゆっくりになる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/283267c35bf45ecfaf8f8fdeee5f8b29e36ab6937fda9112f730dce85e963213.png"
+        }
+      ]
+    },
+    {
+      "key": "reaper",
+      "name": "リーパー",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dc6ff07ac790c00dc95a40882449617bb6e0e38906b353a630cffe0c815270a9.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 300,
+        "total": 300
+      },
+      "abilities": [
+        {
+          "name": "ヘルファイア・ショットガン",
+          "description": "近距離で有効な範囲攻撃武器",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/903d169dd299e13294d43bf01c61ad5351169ef7cc0bd69bddb3855472b88359.png"
+        },
+        {
+          "name": "シャドウ・ステップ",
+          "description": "指定位置にテレポートする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e20a77100283c55a2e3366eb903936eae445364f96575975005c5373f30d722d.png"
+        },
+        {
+          "name": "レイス・フォーム",
+          "description": "移動速度が上昇し無敵状態になるが、攻撃はできない",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b85663ad878344ecf1de8037ff96b4df699d003db95c409b8de46485cdae47c2.png"
+        },
+        {
+          "name": "デス・ブロッサム",
+          "description": "付近の敵すべてにダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/01b5c2f0f26e964707ff9e382a639a402f9f7b3fff3025dadd79f8e6a3f902d1.png"
+        },
+        {
+          "name": "ザ・リーピング",
+          "description": "ダメージを与えると回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d6efc2a1bddf6bdafd95d6bf650bea70fe83d45000c400a1eaa6a86b042ef0a5.png"
+        }
+      ]
+    },
+    {
+      "key": "reinhardt",
+      "name": "ラインハルト",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/551fbe070c16fdfcc17f7f1de63af22c53e7d2f1340fc2f3172441504527bc4e.png",
+      "hitpoints": {
+        "armor": 300,
+        "shields": 0,
+        "health": 400,
+        "total": 700
+      },
+      "abilities": [
+        {
+          "name": "ロケット・ハンマー",
+          "description": "威力抜群の近接武器",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/22c800a8529b46a64f391cd432c94023dca2745ef9c9eec52ad9a7843d7df4e5.png"
+        },
+        {
+          "name": "チャージ",
+          "description": "前方に突進し、敵を壁に叩きつける",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6b7b226ab508dc7a45908b0613dc889558cf2cc217c04d072940e0a539ac56aa.png"
+        },
+        {
+          "name": "ファイア・ストライク",
+          "description": "火炎弾を発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ca90071b2e0c9cbf5a6e91e580682c73456298b88e34d40d7bf5eb5c098173a1.png"
+        },
+        {
+          "name": "バリア・フィールド",
+          "description": "長押しで自身の前方にエネルギー・バリアを展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/423dec435587464e24a663cdd4f35178020854e1f924af5902eebba5be9607f2.png"
+        },
+        {
+          "name": "アース・シャター",
+          "description": "正面の敵すべてをノックダウン状態にする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c5c5d0db3af35de00d60dd68e6350a540febbbac094bafaf0663f25ae4dcfd2b.png"
+        }
+      ]
+    },
+    {
+      "key": "roadhog",
+      "name": "ロードホッグ",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/89ddf07e4b619ed96169042e296a1b8856d102746f35add88284b44a9a5a6a03.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 750,
+        "total": 750
+      },
+      "abilities": [
+        {
+          "name": "スクラップ・ガン",
+          "description": "2点バースト式の近距離用ショットガン",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d48d0b264d765e3732abda784e986595f7a6c5ad0e56f1929c008ffc0492a39d.png"
+        },
+        {
+          "name": "トラッシュ・コンパクター",
+          "description": "敵の投射物を吸収し、圧縮して爆発するスクラップ・ボールを作る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/23bd9bc7960a9958d04584375c5ea81c6615da668e9ad8c6cbb4920561f7c199.png"
+        },
+        {
+          "name": "チェイン・フック",
+          "description": "フックで狙った敵を引き寄せる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7edc1cdef13c2fd21e279043816aa1d2975dc784298502fd121b927729e1e86d.png"
+        },
+        {
+          "name": "テイク・ア・ブリーザー",
+          "description": "ライフを回復し、受けるダメージを減らす",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/064bde1e9f9f65e2a1ca0898abe09432394dca3b0729da0dcccff41b5f5be69b.png"
+        },
+        {
+          "name": "ホール・ホッグ",
+          "description": "正面の敵にダメージを与え、ノックバックさせる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/907eeb4e179b70ea279ca8dd0e276bf45a1b1a13875757ae3b8fd2305f2affa9.png"
+        }
+      ]
+    },
+    {
+      "key": "shion",
+      "name": "シオン",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/070481cf871590a2b45a51d1335f9fe3d65eb4e4d361ecdd998b34fae2ed65d5.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "牙羅拳銃",
+          "description": "力が宿った二丁拳銃を連射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/364a8441812d647fb1324804223f963fc904add29b9396bf98f40d9bffa6fe43.png"
+        },
+        {
+          "name": "罰",
+          "description": "二丁拳銃をX字にバースト連射する。長押しするほど、弾の拡散が狭まる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dbd96d63564e1d99cfa5593f86796c9e5ab360214eb0e50c18d6a9503093c7c5.png"
+        },
+        {
+          "name": "凶走",
+          "description": "バイクに乗る。再入力すると、バイクを前方に飛ばす",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a0279c43c165fe4f240c61baa6b7a721e73b84d7f940809e2a1897d94b2302ef.png"
+        },
+        {
+          "name": "回避",
+          "description": "高速移動の能力と追加ライフを一時的に得る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/460c2fb7f11b1ea206f11a72a7c93bfed0cd314bdfb35333287177a966e21c01.png"
+        },
+        {
+          "name": "殺戮",
+          "description": "前方へとダッシュし、周囲に弾幕を展開する。1度の発動につき3回繰り出せる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/758c015bd3da645e207d99d8a70275e114728101e6a5b7bc15dc24dba6c8962d.png"
+        }
+      ]
+    },
+    {
+      "key": "sierra",
+      "name": "シエラ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4bfd3d8b95844231115cb5bf4db03344c71bc3e865189c52403b2dc51438e63a.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "ヘリックス・ライフル",
+          "description": "オートマチック式のアサルトライフル。弾はらせん状に発射され、射撃し続けることで精度が高まる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/d12e2bc19f1619b71d13816c01ef96ad54bb6a7cb4ee00ae8bea8be3d2e2102d.png"
+        },
+        {
+          "name": "トラッキング・ショット",
+          "description": "1人の敵をマークする。〈ヘリックス・ライフル〉の弾がマーク中の敵を自動追尾するようになる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6c77d58daaeaae211088786b8bf9bff92178ef2df3f0ca6ec9a721d6b4258e55.png"
+        },
+        {
+          "name": "トレマー・チャージ",
+          "description": "爆弾を投げる。爆弾は着弾すると衝撃波を生む",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f4b141af6f5e6b6c392cdde07083f29d1b5374303c7fc39e37c3f4ed51985e52.png"
+        },
+        {
+          "name": "アンカー・ドローン",
+          "description": "アンカー・ドローンを放つ。再入力するとドローンにグラップルする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f9e6fff99bff3c24a9ea9e57ae7c71b067982e6df9b0acb50529fe58131b6e7b.png"
+        },
+        {
+          "name": "トレイルブレイザー",
+          "description": "前方へと飛んで爆弾を落とすドローンを放つ",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4a300c381bac87785f406965cf94ef8d75ee2592bb07d867d50d1c738d8312c8.png"
+        }
+      ]
+    },
+    {
+      "key": "sigma",
+      "name": "シグマ",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a4c032fa466c9a6d9c6974747635d7ef910027f91cd58892af0c899db565f92d.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 250,
+        "health": 350,
+        "total": 600
+      },
+      "abilities": [
+        {
+          "name": "ハイパースフィア",
+          "description": "2つのチャージを射出する。射出したチャージは一定時間後に爆発し、一定範囲にダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/30fc5dd8efdcc6aa5a34191c3ff308fb77fdfd542b2bfc36e1536f0db7bdb618.png"
+        },
+        {
+          "name": "キネティック・グラスプ",
+          "description": "正面からの投射物を吸収し、追加ライフに変換する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c8af801acf16c796c38a8aa8abb571eda481d6490f0562105aa20f319cccdf41.png"
+        },
+        {
+          "name": "アクリーション",
+          "description": "大量の岩石を引き寄せ、敵に向かって投げつけてノックダウンさせる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f7fd30ad038cc989f39b28bac6744b6ab0215e9817adfd67d077f3b40bc10fdf.png"
+        },
+        {
+          "name": "エクスペリメンタル・バリア",
+          "description": "長押しで浮遊するバリアが前進し、離すと停止する。もう一度押すとバリアを呼び戻す",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2ad5aa270071c229fd0a83b49d0ebd6b502489f0a0b5bcb109140eea79a5fb6b.png"
+        },
+        {
+          "name": "グラビティ・フラックス",
+          "description": "重力を操作して敵を空中に持ち上げ、地面に叩きつける",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0a5cda51d0e802e9adbdedefee7461c5abe2b6c6a7027d55903ac9a28281b2e4.png"
+        }
+      ]
+    },
+    {
+      "key": "sojourn",
+      "name": "ソジョーン",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/82b8c1b8765dcb9a0ba16e343c3516bf324c771ac81e9878473280216e70a889.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "レールガン",
+          "description": "命中するとエネルギーが充電される高速弾  溜めたエネルギーを放出して敵を貫く高威力弾",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e5b9de0193dfaf675dd1cd1cbfe4ac96c8cc62059b376a728da56f59f639ee25.png"
+        },
+        {
+          "name": "パワー・スライド",
+          "description": "地面を滑走し、途中でジャンプすると高く跳べる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/96315794f51b0dd88c540803fc3930472d75dca3cf00c02ad89dda1b0551493c.png"
+        },
+        {
+          "name": "ディスラプター・ショット",
+          "description": "エネルギーバーストを発射し、範囲内の敵にダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/aeee6090d3c14383487584bda86043add0b69c02331ad01dfd01958a545dddcf.png"
+        },
+        {
+          "name": "オーバークロック",
+          "description": "短時間レールガンのエネルギーが自動チャージされる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5772b79f0a9d28125abb69412bce2a025d79f9b6023b561427592ece2b761588.png"
+        }
+      ]
+    },
+    {
+      "key": "soldier-76",
+      "name": "ソルジャー76",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c93b5f0a528c40473188f77cc2a267aee7d5b6cf5c9e104105d634b4388674e2.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "ヘビー・パルス・ライフル",
+          "description": "オートマチック式のアサルトライフル",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/92a278e67041e7d4fa9b1a392a0a632ae61878b166c07bfa4486fc8f331542c5.png"
+        },
+        {
+          "name": "スプリント",
+          "description": "前方への移動速度が上昇する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5b9ad6138762e898cd82c4d4573580004ee603976b7cd8e18362c902a00b496e.png"
+        },
+        {
+          "name": "バイオティック・フィールド",
+          "description": "フィールドを展開し、自分と味方のライフを回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a7ff449a9b1d26894358265bedbe1f6cbb75707359f9b5b86266e2ce5d1aa3a3.png"
+        },
+        {
+          "name": "ヘリックス・ロケット",
+          "description": "爆発するロケット弾を一斉に発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4b430bbf1650e264875441dab1f4bd1083d106375fc1a7ef0e0c88e1d7371bc4.png"
+        },
+        {
+          "name": "タクティカル・バイザー",
+          "description": "視界内のターゲットに自動で照準を合わせる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/be3396e23ba0199441cfa6f3b1ed92400031c662b933c2354288111070210e6f.png"
+        }
+      ]
+    },
+    {
+      "key": "sombra",
+      "name": "ソンブラ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/47727b02a16e3bd7b2447d86ae1edf11587bc320b2aecb4f2f16a7ca4ad4e8a0.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "マシン・ピストル",
+          "description": "近距離用のオートマチック小銃",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5750af901db77f479be41f01c55a5b3d5e644d2f99c179b77bd824eecf5fcbbc.png"
+        },
+        {
+          "name": "ホットフィクス",
+          "description": "味方のライフを一定量、継続的に自動回復する。ライフ・パックと大半の敵の設置物も自由にハックできる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8646a0e19104f5185b6296c0123fd768c3333a18ffe4aa922e2724df9b2aa041.png"
+        },
+        {
+          "name": "サイバースペース",
+          "description": "着弾時に爆発する弾を放ち、ゾーンを展開する。ゾーンには敵を脆弱化させ、味方を回復する効果がある",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/22bfcf655c54a065b149c3359ce2447f6c4c09835fd957ce72fa8a4e023ba7ef.png"
+        },
+        {
+          "name": "トランズロケーター",
+          "description": "ビーコンを投擲し、そこにテレポートする。テレポート後、短時間だけステルス状態になる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/13259eeec8db36c3158d1d4bd4fe99667067ee7bf678349eec5cbd0d32da3a7f.png"
+        },
+        {
+          "name": "EMP",
+          "description": "付近の敵にその残りライフの割合に等しいダメージを与える。敵をハッキングし、自分の周囲にあるバリアを破壊する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9ccf2688b89c3f17c3f6410c3142510ea413718f0d165f78e712184ec636b2e4.png"
+        }
+      ]
+    },
+    {
+      "key": "symmetra",
+      "name": "シンメトラ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ebec57e8bd68b3d4383edfeb34f8f52dd0b94a6467d594c2fee722e8a97c32aa.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 150,
+        "health": 125,
+        "total": 275
+      },
+      "abilities": [
+        {
+          "name": "フォトン・プロジェクター",
+          "description": "可変ダメージの近距離用ビーム兵器  炸裂オーブを発射。長押しでチャージ可能",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8a4fdf92378cdc77364729fe493013e913d794975c5a9b94865cd740f471d528.png"
+        },
+        {
+          "name": "セントリー・タレット",
+          "description": "小型タレットを設置する。タレットは敵にダメージを与え、同時に移動速度を低下させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2b4544ab4d75b4499b7cb6b1b6b44e8487b6d3d3857ee119ebbf29d59e903d45.png"
+        },
+        {
+          "name": "テレポーター",
+          "description": "一定時間、互いを瞬時に行き来可能なテレポーターを2個設置する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1c4fb9dbd9b6d02c2e75c3ad142b79955ba3e6e73469d676c79bdaef7f7a610f.png"
+        },
+        {
+          "name": "フォトン・バリア",
+          "description": "巨大なエネルギー・バリアを展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/33e5dd2a53729dad19d77e7528de49e2e3e3a6500657d47fe1c331afd1c0a88f.png"
+        }
+      ]
+    },
+    {
+      "key": "torbjorn",
+      "name": "トールビョーン",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ce17118cedc29b0d2ac1e059666bed36b9531c85079b0b894bb402d12c917ba9.png",
+      "hitpoints": {
+        "armor": 75,
+        "shields": 0,
+        "health": 225,
+        "total": 300
+      },
+      "abilities": [
+        {
+          "name": "リベット・ガン",
+          "description": "連射は効かないが、遠距離攻撃が可能な武器  命中精度は低いものの、威力の高い近距離用武器",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2020ce8ffa1d19edbfa7097499ed5763ac18500a0f76cde75cc37243fd6aab27.png"
+        },
+        {
+          "name": "フォージ・ハンマー",
+          "description": "ハンマーでタレットの修理を行う。敵を殴打してダメージを与えることも可能",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f88b11b8a6cceb1ba4a15e3d6bc4beb5a1bce9ae5dbcb088b2d51ace54af13bc.png"
+        },
+        {
+          "name": "タレット設置",
+          "description": "自動式タレットを設置する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/856576a7a6b8bc93e8024a152a8a300178ed4030c869edebaaf61469cdbc330c.png"
+        },
+        {
+          "name": "オーバーロード",
+          "description": "追加ライフを獲得し、攻撃力と移動速度、リロード速度が上昇する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9751ee2ad26041a274f60dab106a3d52eb0f0d7941b4bc48cd14e737e05dc6bd.png"
+        },
+        {
+          "name": "モルテン・コア",
+          "description": "敵にダメージを与える高熱スラグを地面にばらまく。アーマーには、より高いダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f90a17a62ce6d21dfca5f9dd0df6598f582872f88269c76f51efdec1e198ffe4.png"
+        }
+      ]
+    },
+    {
+      "key": "tracer",
+      "name": "トレーサー",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4504f6f15cb3feaa92ecd38e01dcf751cb5abdac2e0bb52d0555727e53277502.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 175,
+        "total": 175
+      },
+      "abilities": [
+        {
+          "name": "パルス・ピストル",
+          "description": "近距離用のオートマチックピストル",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/17a3bc41fc57a8527c4f44a5615e249acca62cb69319e52b61d499e4e91cf346.png"
+        },
+        {
+          "name": "ブリンク",
+          "description": "進行方向にテレポートする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b8c86be415dba78af80c8f1536aba583096396327e0609607d21acea6a806276.png"
+        },
+        {
+          "name": "リコール",
+          "description": "時間をさかのぼり、直前の位置とライフの状態に戻る",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cfa2264173c1d8a365c514972412fbb802d78cd70451b1d38f37579cea500872.png"
+        },
+        {
+          "name": "パルス・ボム",
+          "description": "あらゆる場所にくっつけられる強力な爆弾",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a2613e52845b252aee119c75e1b527cd0dd1c6d4c0605b3d48983188268d3581.png"
+        }
+      ]
+    },
+    {
+      "key": "vendetta",
+      "name": "ヴェンデッタ",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cf8ffb52b6f315546d5e94e9d6defad5a2c570798776956de23f47536f9529da.png",
+      "hitpoints": {
+        "armor": 100,
+        "shields": 0,
+        "health": 175,
+        "total": 275
+      },
+      "abilities": [
+        {
+          "name": "パラティーノ・ファング",
+          "description": "硬質光の刀身を持つ大剣。連続入力することで、横薙ぎに斬りつけた後に強力な縦斬りを繰り出す",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9754a770516c07712b3cbababb825972eec78c08b3fbc141dbcee31d9c58c137.png"
+        },
+        {
+          "name": "ウォーディング・スタンス",
+          "description": "剣を盾にして前方から受けるダメージを軽減し、近接攻撃をはじく。ダメージをブロックするとエネルギーを消費する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/fa9a88278d46e3fc49aad27df9a0b70541f16fb517e96711514e7c736c377243.png"
+        },
+        {
+          "name": "ワールウィンド",
+          "description": "前方に突進し、回転斬りを繰り出す",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/646af7a4d6b6b65adee6543ec70b33c9ffd36989c8dd4e8b22079c6b9e074c79.png"
+        },
+        {
+          "name": "ソアリング・スライス",
+          "description": "進行方向に剣を投げ、投げた剣に向かって飛翔する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/785bffa90ccf067fbfd86c7a6d6729ed12566a02554f28d76974b573d3a5c6a0.png"
+        },
+        {
+          "name": "ブレード・ウェーブ",
+          "description": "〈ウォーディング・スタンス〉使用中、エネルギーを消費して、広範囲に効果のある一閃を放つ",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/82d88959c1044cf01449e6909cb962590a6ff4a188565f367a5b8a3b3a038ccb.png"
+        },
+        {
+          "name": "サンダリング・ブレード",
+          "description": "正面にいるすべての敵に対して、防御のほとんどを切り裂いて大ダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/827e0c55b3d2f335f5950c676f1f52c8668ad33f34ea4c6052c4a122ac005ce8.png"
+        }
+      ]
+    },
+    {
+      "key": "venture",
+      "name": "ベンチャー",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dcab9123f5f55df22e54d4e797de43c71b917e0149dd059a7fd6136f48464cd0.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 250,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "スマート・エクスカベーター",
+          "description": "衝撃波を放つ弾を発射する。弾は短距離で爆発する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b2cc1eb839f7e907defe189101077716373a30e6ee17859521ab558a907a7925.png"
+        },
+        {
+          "name": "ドリル・ダッシュ",
+          "description": "前方にダッシュして敵を押しのける。地上と地中の両方で使用可能。〈バロー〉発動中、クールダウンが早くなる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dd98f66d96b860803bd144bb4376d236275bf994228de6f9bd7826ec5c4522e6.png"
+        },
+        {
+          "name": "バロー",
+          "description": "地中を無敵状態で移動できる。Shift (左)を押すか長押しで浮上して、敵にダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/725f02ba7e5bba99db26300cdf1d7478e111b2a4049b7fd41b6ef3a4a6cb0e57.png"
+        },
+        {
+          "name": "テクトニック・ショック",
+          "description": "ダメージを与える衝撃波を放つ",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/41ee94ca95e5e7258fc67aa501aa9972c7a828f4df7b578b4eb44e01490e2679.png"
+        }
+      ]
+    },
+    {
+      "key": "widowmaker",
+      "name": "ウィドウメイカー",
+      "role": "damage",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6e4702b45f196aaf51555cf57327322721f45458b17f5f0643ed008a88378259.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "ウィドウズ・キス",
+          "description": "オートマチック式のアサルトライフル  長押しで遠距離狙撃モードに切り替える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/da5b161187088a765de4a40df65e8737bd9b6b09c896c9cc960f8fa322a78f22.png"
+        },
+        {
+          "name": "グラップリング・フック",
+          "description": "フックを射出して、離れた足場に移動する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9984591b905b66ab69c48c04e2f2829e32ffce04941b57403f1ec21c125fe573.png"
+        },
+        {
+          "name": "ヴェノム・マイン",
+          "description": "毒ガスを放出する罠を展開",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/800b4cd6b00024479ac681dc160a50030a3883a334499da6c6918d7c239bec55.png"
+        },
+        {
+          "name": "インフラサイト",
+          "description": "味方に敵の位置を知らせる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7f5d2bca0cdf2d33170ed1253344059db14755fc69efb524d19cebb4f3dc2903.png"
+        }
+      ]
+    },
+    {
+      "key": "winston",
+      "name": "ウィンストン",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/46a10db3aa908c590ddc4e7606376a88143d1f1306ecfbea043263040f9529a5.png",
+      "hitpoints": {
+        "armor": 200,
+        "shields": 0,
+        "health": 425,
+        "total": 625
+      },
+      "abilities": [
+        {
+          "name": "テスラ・キャノン",
+          "description": "前方に電撃を放つ  長押しで充電し、放すと溜めた電気を発射する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bee62b73fa25c243366aa1334aaac2d3b14b626156155895c4355dc3601ecb27.png"
+        },
+        {
+          "name": "ジャンプ・パック",
+          "description": "前方に大きく跳躍する。敵の上に直接着地するとダメージを与える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2bdebd912f34716becf022295dd66d83abd6d156dde2aad43c87498445050f62.png"
+        },
+        {
+          "name": "バリア・プロジェクター",
+          "description": "敵の攻撃から身を守るバリア・ドームを展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/37fc72590a04cbcc4d8ddc3b839e853640a617bad0b6ce8904f6ebe8f07400ba.png"
+        },
+        {
+          "name": "プライマル・レイジ",
+          "description": "ライフが大幅に増加するが跳躍とパンチしかできなくなってしまう",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3dc843c002049f4c954545f8a11570fb347caddb24365a8839563e2302a2ad7c.png"
+        }
+      ]
+    },
+    {
+      "key": "wrecking-ball",
+      "name": "レッキング・ボール",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9ef1d58867136e0b26f928d896000b9dab216118f6e2f59e53f2e975e1e27afa.png",
+      "hitpoints": {
+        "armor": 125,
+        "shields": 150,
+        "health": 450,
+        "total": 725
+      },
+      "abilities": [
+        {
+          "name": "クアッド・キャノン",
+          "description": "オートマチック・ウェポン",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ac31602c3ce6b5732e1730f3b9745a5d10573b819332f730f6f3f0e9cd7fffba.png"
+        },
+        {
+          "name": "グラップリング・クロー",
+          "description": "グラップリング・クローで壁や天井などに固定し、巨大な振り子と化す。高速で敵と衝突した場合はダメージを与え、ノックバックする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/59622a0a190adb30f2ac004485b44e1956cd5fd7a984df1bb4b0e0c156878ed6.png"
+        },
+        {
+          "name": "ロール",
+          "description": "ボールに変形し、移動速度が向上する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/657f78a26e980f5fa339edb9cd318f348e00b9a0fd0079e4989584cedad40f52.png"
+        },
+        {
+          "name": "パイルドライバー",
+          "description": "空中から地面に激突し、敵を宙にノックバックする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dfb63a6f4f8f8e4d69109d5db9107be47deaec938b1bac6725e756b0a74b8aaa.png"
+        },
+        {
+          "name": "アダプティブ・シールド",
+          "description": "追加のライフを一時的に獲得できる。得られる追加ライフは周囲の敵が多いほど増え、またその一部は、味方に分け与えることもできる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/0424cbb07a23692153df454ddbab6cbd11d735a7ac4f680d449e36e49d4fbd02.png"
+        },
+        {
+          "name": "マインフィールド",
+          "description": "広範囲に感知式地雷を展開する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3477845322ea7befaff326fd662ff07eda2d7d49cb1a3518d27ec9531d10afaa.png"
+        }
+      ]
+    },
+    {
+      "key": "wuyang",
+      "name": "ウーヤン",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4959500b495b35c0908be2abda56b53f2601b2c5cc39a1cfde8df1bffd38d66d.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 0,
+        "health": 225,
+        "total": 225
+      },
+      "abilities": [
+        {
+          "name": "玄武之杖",
+          "description": "ダメージを与える水球を放つ。長押しで弾道を操作し、爆発を強化する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/51dee96ac9a92d773bfa56a45272db8cf94ade9c051981f7a240782b0d16f8ec.png"
+        },
+        {
+          "name": "養神泉",
+          "description": "徐々にライフを自動回復する水流を味方に付与する。長押しでリソースを消費し、より速いスピードで回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f4d4b3abcf4581b0cfb268f571aa1e657533c294d475043b8ef0ca0d3e9696b0.png"
+        },
+        {
+          "name": "飛流歩",
+          "description": "水流に乗って素早く移動し、より高くジャンプする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b545f1bee1ec06f66fee071afcece10cee6bf5f4eb2323e4daeacb7861dd8b1d.png"
+        },
+        {
+          "name": "驚濤破",
+          "description": "自分か味方1人に水の護りを与える。水は一定時間後に爆発し、対象を大きく回復すると同時に敵をノックダウンする",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1c1289f947063b60cdb43226bd997557161910a3ea8f5ffcb1d1ad69e91b24b7.png"
+        },
+        {
+          "name": "守衛波浪",
+          "description": "味方の受ける回復量を増やし敵をノックバックする波を前方に放つ",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a1a3efdb2c0db62876f6e39dc82b6095a1058803e3f428ca12c912391f818d35.png"
+        }
+      ]
+    },
+    {
+      "key": "zarya",
+      "name": "ザリア",
+      "role": "tank",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9b6f63cc66ddf9d5e0862173c733cc0d2e574c5c89357798d91b93b2f95a7080.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 225,
+        "health": 325,
+        "total": 550
+      },
+      "abilities": [
+        {
+          "name": "パーティクル・キャノン",
+          "description": "近距離用のビーム兵器  エネルギー弾を射出するグレネード・ランチャー",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b7f554bd5736dcf6493d9ba6c4961f5b93252d692123c7d10d43a4d1b3db62c3.png"
+        },
+        {
+          "name": "パーティクル・バリア",
+          "description": "自分の周囲にバリアを発生させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2311738a2f08aa2e72198b01ef5131337d39275fe0722143e53509592b22612a.png"
+        },
+        {
+          "name": "バリア・ショット",
+          "description": "味方の周囲にバリアを発生させる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/80f5c53f2835ef60c6527802de36a603b90ea212af41bce469664817692fc97e.png"
+        },
+        {
+          "name": "グラビトン・サージ",
+          "description": "重力の塊を発射し、敵を引き寄せる",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9a3f92c4af25b973f82ea2d8ea9a2ec266e0ccd387b053b317eb3cd977f10073.png"
+        },
+        {
+          "name": "エネルギー吸収",
+          "description": "ブロックしたダメージ量に応じて、〈パーティクル・キャノン〉の攻撃力が上昇",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/34d08df453dae3f8c01cabc9015e43ecfbb5fa764885a6f1f431ee90a98dcee2.png"
+        }
+      ]
+    },
+    {
+      "key": "zenyatta",
+      "name": "ゼニヤッタ",
+      "role": "support",
+      "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7d1546b1541a8afc39353f9337a408d6275a141b0432b7e560ef61579996b0fc.png",
+      "hitpoints": {
+        "armor": 0,
+        "shields": 175,
+        "health": 75,
+        "total": 250
+      },
+      "abilities": [
+        {
+          "name": "破壊のオーブ",
+          "description": "エネルギー弾を放つ  チャージすることで、放出するオーブの数が増える",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9aaea64b6fd5f024741aab112dea6ef5e3adc706af58122a6beb92505889a5f1.png"
+        },
+        {
+          "name": "不和のオーブ",
+          "description": "敵に当てると、敵が受けるダメージが増加する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4000886b6906480f519f4a87c167bc1877b131f1dc43e8583bfc0fcf7e415904.png"
+        },
+        {
+          "name": "調和のオーブ",
+          "description": "味方に当てると、味方のライフが回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c8e37e2f3e147fde823bb9566b57e3e20d238430f0cb4f8aa8b581525a4f225e.png"
+        },
+        {
+          "name": "心頭滅却",
+          "description": "無敵状態になり、移動速度が上昇する。さらに、付近の味方のライフを回復する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bb8671b591d6310c3a956c354669fe8ef4b581517dea0813b5172092a8ab420c.png"
+        },
+        {
+          "name": "スナップ・キック",
+          "description": "クイック近接攻撃のダメージが50%増加し、ノックバックが大幅に増加する",
+          "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4bf9bae454ad8571a99b5418fe14b42b18922ca9521981797b66e9b1a9791fc7.png"
+        }
+      ]
+    }
+  ],
+  "partial_failures": []
+}
