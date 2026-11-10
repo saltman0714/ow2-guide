@@ -13,4 +13,9 @@ page.innerHTML=`<div class="card"><h2>データ更新</h2><div class="data">ヒ�
 function bindControls(){page.querySelectorAll('[data-role]').forEach(el=>el.onclick=()=>{role=el.dataset.role;render()})}
 const searchInput=document.querySelector('#query');let composing=false;searchInput.addEventListener('compositionstart',()=>{composing=true});searchInput.addEventListener('compositionend',()=>{composing=false;q=searchInput.value;render()});searchInput.addEventListener('input',()=>{q=searchInput.value;if(!composing)render()});
 async function load(){const loadJSON=async f=>{try{const r=await fetch(f+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error();return await r.json()}catch(e){return null}};const [c,h,p]=await Promise.all([loadJSON('./counters.json'),loadJSON('./heroes.json'),loadJSON('./patch.json')]);counters=c||{};heroes=h?.heroes||[];window.heroUpdated=h?.updated;patch=p||{};document.querySelector('#status').textContent=h?.updated?'自動更新：'+h.updated.slice(0,10):'初回同期待ち';render()}load();if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
-</script></body></html>
+</script>
+<footer style="text-align:center;padding:24px 12px;color:#aabbd4;font-size:12px;">
+  Created by コーディネーター塩澤
+</footer>
+</body>
+</html>
