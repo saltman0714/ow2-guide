@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T19:15:50+00:00",
+  "updated": "2026-11-11T04:01:38+00:00",
   "source": "https://overfast-api.tekrop.fr",
   "heroes": [
     {
@@ -91,9 +91,9 @@
       "role": "damage",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4076bbaa2eb52a0bfe612434071e56e7702d5454473dbbea2f9e392a9d997a94.png",
       "hitpoints": {
+        "health": 250,
         "armor": 0,
         "shields": 0,
-        "health": 250,
         "total": 250
       },
       "abilities": [
@@ -418,9 +418,9 @@
       "role": "tank",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ff5c54f43ad253c7faeda9c4ed31d42582ea6b19205d197866f3dd0c0aa14c16.png",
       "hitpoints": {
+        "health": 525,
         "armor": 0,
         "shields": 0,
-        "health": 525,
         "total": 525
       },
       "abilities": [
@@ -984,9 +984,9 @@
       "role": "support",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3376515cebed0904012e67e956f6d1b9c12e03da642845eeaf787b7e4c7b339d.png",
       "hitpoints": {
+        "health": 200,
         "armor": 0,
         "shields": 50,
-        "health": 200,
         "total": 250
       },
       "abilities": [
@@ -1106,9 +1106,9 @@
       "role": "damage",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4a55ced3bd597fb08e0fde9dc007f8543ac616ba98ca3db9b0e4d871a8ae17f8.png",
       "hitpoints": {
+        "health": 300,
         "armor": 0,
         "shields": 0,
-        "health": 300,
         "total": 300
       },
       "abilities": [
@@ -1140,9 +1140,9 @@
       "role": "support",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3bfb8bd8ec827e53d870f1238ab73d8aa1f5dbfbcfaaf7f96ffcd35b5c6102ab.png",
       "hitpoints": {
+        "health": 225,
         "armor": 0,
         "shields": 0,
-        "health": 225,
         "total": 225
       },
       "abilities": [
@@ -1184,9 +1184,9 @@
       "role": "support",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a9733c2367e0cbd70b9316fd2e1e17028653ec56d0051ea6ff098531dc4f99fc.png",
       "hitpoints": {
+        "health": 250,
         "armor": 0,
         "shields": 0,
-        "health": 250,
         "total": 250
       },
       "abilities": [
@@ -1262,9 +1262,9 @@
       "role": "tank",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a73958a28551f5254f3ab3f97c5f5f8d698a95c0b6a515d1a2b1caac169205a6.png",
       "hitpoints": {
+        "health": 300,
         "armor": 300,
         "shields": 0,
-        "health": 300,
         "total": 600
       },
       "abilities": [
@@ -1301,9 +1301,9 @@
       "role": "damage",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/60ac2d5de4a6d34644d8872233da402f1436c87f804bb11a21661bb30bf4a51f.png",
       "hitpoints": {
+        "health": 225,
         "armor": 0,
         "shields": 0,
-        "health": 225,
         "total": 225
       },
       "abilities": [
@@ -1423,9 +1423,9 @@
       "role": "tank",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/551fbe070c16fdfcc17f7f1de63af22c53e7d2f1340fc2f3172441504527bc4e.png",
       "hitpoints": {
+        "health": 400,
         "armor": 300,
         "shields": 0,
-        "health": 400,
         "total": 700
       },
       "abilities": [
@@ -1579,9 +1579,9 @@
       "role": "tank",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a4c032fa466c9a6d9c6974747635d7ef910027f91cd58892af0c899db565f92d.png",
       "hitpoints": {
+        "health": 350,
         "armor": 0,
         "shields": 250,
-        "health": 350,
         "total": 600
       },
       "abilities": [
@@ -1618,9 +1618,9 @@
       "role": "damage",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/82b8c1b8765dcb9a0ba16e343c3516bf324c771ac81e9878473280216e70a889.png",
       "hitpoints": {
+        "health": 225,
         "armor": 0,
         "shields": 0,
-        "health": 225,
         "total": 225
       },
       "abilities": [
@@ -1652,9 +1652,9 @@
       "role": "damage",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/c93b5f0a528c40473188f77cc2a267aee7d5b6cf5c9e104105d634b4388674e2.png",
       "hitpoints": {
+        "health": 250,
         "armor": 0,
         "shields": 0,
-        "health": 250,
         "total": 250
       },
       "abilities": [
@@ -1803,9 +1803,9 @@
       "role": "damage",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4504f6f15cb3feaa92ecd38e01dcf751cb5abdac2e0bb52d0555727e53277502.png",
       "hitpoints": {
+        "health": 175,
         "armor": 0,
         "shields": 0,
-        "health": 175,
         "total": 175
       },
       "abilities": [
@@ -1881,9 +1881,9 @@
       "role": "damage",
       "portrait": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/dcab9123f5f55df22e54d4e797de43c71b917e0149dd059a7fd6136f48464cd0.png",
       "hitpoints": {
+        "health": 250,
         "armor": 0,
         "shields": 0,
-        "health": 250,
         "total": 250
       },
       "abilities": [
